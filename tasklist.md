@@ -1,21 +1,21 @@
 Task-List: Spotify Data Analyzer 
 
-# Step 1: Git Repository 
+# Git Repository 
 - Initialize GitHub repository and setup branching strategy
 - Set up README with project goals and tech stack
 - Create shared Notion or Trello board for task tracking
 - Create .env template for API keys
 - Text file to define variables and secure sensitive information like API keys, database credentials, etc
 
-# Step 2: Set up OAuth
-- Research Spotify OAuth flow HERE
+# Set up OAuth
+- Research Spotify OAuth flow
 - Implement user login with Spotify
 - Store access tokens securely (session or database)
 - Access token: temporary key that lets app make authenticated API calls on behalf of the user 
     - Anyone with this token can act as that user
 - Handle token refresh logic
 
-# Step 3: Backend (Python & Flask/FastAPI)
+# Backend (Python & Flask/FastAPI)
 - Set up basic backend server (Node.js)
 - Integrate Spotipy to get user data
 - Build endpoints for:
@@ -27,7 +27,7 @@ Task-List: Spotify Data Analyzer
 - Implement rate-limiting/error handling for Spotify API
 - Store daily reports (MongoDB, SQLite, etc.)
 
-# Step 4: Data Analysis 
+# Data Analysis 
 - Identify and calculate:
     - Top 5 tracks
     - Top artists
@@ -38,7 +38,7 @@ Task-List: Spotify Data Analyzer
     - New artist discoveries
 - Generate JSON or structured report data
 
-# Step 5: Frontend (React and Chart.js/Plotly)
+# Frontend (React and Chart.js/Plotly)
 - Set up React app
 - Create routing and main page components
 - Build components for:
@@ -49,27 +49,27 @@ Task-List: Spotify Data Analyzer
 - Use Chart.js or Plotly for data visualization
     - Responsive data
 
-# Step 6: Storing Data
+# Storing Data
 - Design schema for storing daily user data
 - Store processed data in DB (daily snapshot)
 - Create endpoint to retrieve history
 - Enable comparison (i.e. yesterday vs today)
 
-# Step 7: Test
+# Testing
 - Write backend test (e.g. API responses)
 - Write frontend test
 - Test Spotify login and data fetching
 - Test API error states and retry logic
 - User testing for UI/UX feedback
 
-# Step 8: SIMULTANEOUSLY Document 
+# SIMULTANEOUSLY Document 
 - Create setup guide for developers
 - Write API documentation 
 - Document how OAuth and Spotipy work
 - Add contributor guidelines
 - Write user-facing documentation (how to log in, use app)
 
-# Step 9: UI/UX
+# UI/UX
 - Design
 
 
